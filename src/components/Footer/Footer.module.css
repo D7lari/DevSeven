@@ -1,0 +1,56 @@
+.footer {
+  background-color: #0d1117;
+  border-top: 1px solid #1e2a3a;
+  padding: 40px 80px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logoNumero{
+    font-size: 28px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #2563EB, #7C3AED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.logoTexto{
+    font-size: 18px;
+    color: #F1F5F9;
+}
+.logoTexto strong{
+    color: #22D3EE;
+}
+.slogan{
+    font-size: 14px;
+    color: #94a3b8;
+    font-style: italic;
+}
+.copyright{
+    font-size: 13px;
+    color: #4a5568;
+}
+.redes{
+    display: flex;
+    gap: 24px;
+}
+.rede{
+    color: #94a3b8;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+.rede:hover{
+    color: #22D3EE;
+}
+

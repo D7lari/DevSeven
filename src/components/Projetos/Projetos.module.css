@@ -1,0 +1,112 @@
+.Projetos{
+    padding: 100px 80px;
+    background-color: #080c12;
+}
+.cabecalho{
+    text-align: center;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+.tag{
+    display: inline-block;
+    background: linear-gradient(135deg, #2563EB20, #7c3AED20);
+    border: 1px solid #2563EB50;
+    color: #22D3EE;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.titulo{
+    font-size: 36px;
+    font-weight: 700;
+    color: #F1F5F9;
+    max-width: 500px;
+    line-height: 1.3;
+}
+.subtitulo{
+
+    font-size: 16px;
+    color:#94a3b8;
+    max-width: 500px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+.card{
+    background: linear-gradient(13deg, #111827, #1a1f35);
+    border: 1px solid #1e2a3a;
+    border-radius: 16px;
+    overflow: hidden;
+    flex: 1;
+    min-width: 300px;
+    max-width: 380px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+.card:hover{
+    transform: translateY(-8px);
+    border-color: #2563EB;
+}
+.imagemContainer{
+    position: relative;
+}
+.imagem{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.cardTag{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: linear-gradient(135deg, #2563EB, #7C3AED);
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.cardConteudo{
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.cardTitulo{
+    font-size: 20px;
+    font-weight: 700;
+    color: #F1F5F9;
+}
+
+.cardDescricao{
+    font-size: 14px;
+    color: #94a3b8;
+    line-height: 1.7;
+}
+.tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+.tech{
+    background-color: #1e2a3a;
+    color: #22D3EE;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #22D3EE30;
+}

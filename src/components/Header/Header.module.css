@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #0D1117;
+    border-bottom: 1px solid #1e2a3a;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoNumero {
+    font-size: 32px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #2563EB, #7C3AED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logoTexto{
+    font-size: 20px;
+    color: #f1f5f9;
+    letter-spacing: 1px;
+}
+.logoTexto strong{
+    color: #22d3ee;
+}
+
+.nav{
+    display: flex;
+    gap: 32px;
+}
+
+.nav a{
+    color: #f1f5f9;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s
+}
+
+.nav a:hover{
+    color: #22d3ee;
+
+}
+.botao{
+    background: linear-gradient(135deg, #2563eb, #7C3AED);
+    color:#ffffff;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: opacity 0.3s;
+}
+
+.botao:hover{
+    opacity: 0.85;
+}
+.acoes{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.redesSociais{
+    font-size: 20px;
+    transition: opacity 0.3s;
+}
+.redesSociais:hover{
+    opacity: 0.7;
+}
