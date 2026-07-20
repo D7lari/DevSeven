@@ -78,3 +78,25 @@
 .botaoSecundario:hover {
     background-color: #2563EB20;
 }
+
+@media (max-width: 600px) {
+    .hero{
+        padding: 48px 20px;
+        min-height: auto;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .subtitulo{
+        font-size: 16px;
+    }
+    .botoes{
+        flex-direction: column;
+        width: 100%;
+    }
+    .botaoPrimario,
+    .botaoSecundario{
+        text-align: center;
+        width: 100%;
+    }
+}

@@ -41,7 +41,7 @@ function Servicos() {
                 {servicos.map((servico) => (
                     <div key={servico.id} className={styles.card}>
                         <span className={styles.icone}>{servico.icone}</span>
-                        <h3 className={styles.titulo_card}>{servico.titulo}</h3>
+                        <h3 className={styles.cardTitulo}>{servico.titulo}</h3>
                         <p className={styles.cardDescricao}>{servico.descricao}</p>
                     </div>
                 ))}

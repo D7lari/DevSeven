@@ -53,4 +53,11 @@
 .rede:hover{
     color: #22D3EE;
 }
-
+@media(max-width: 600Px) {
+    .footer{
+        padding: 32px 20px;
+    }
+    .redes{
+        gap: 16px;
+    }
+}

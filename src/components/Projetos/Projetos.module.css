@@ -110,3 +110,18 @@
     font-weight: 600;
     border: 1px solid #22D3EE30;
 }
+@media (max-width: 900px) {
+    .Projetos{
+        padding: 70px 32px;
+    }
+}
+@media (max-width: 480px) {
+    .Projetos{
+        padding: 60px 20px;
+    }
+    .card{
+
+        min-width: 100%;
+        max-width: 100%;
+    }
+}

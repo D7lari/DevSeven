@@ -88,3 +88,18 @@
     font-size: 13px;
     color: #94a3b8;
 }
+
+@media (max-width: 900px) {
+    .depoimentos{
+        padding: 70px 32px;
+    }
+}
+@media (max-width: 480px) {
+    .depoimentos{
+        padding: 60px 20px;
+    }
+    .card{
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
