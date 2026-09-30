@@ -32,14 +32,14 @@ function Contato() {
                         <span className={styles.infoIcone}>📧</span>
                         <div>
                             <p className={styles.infoTitulo}>Email</p>
-                            <p className={styles.infoTexto}>contato@devseven.com.br</p>
+                            <p className={styles.infoTexto}>larissadevseven@gmail.com</p>
                         </div>
                     </div>
                     <div className={styles.infoItem}>
                         <span className={styles.infoIcone}>📱</span>
                         <div>
                             <p className={styles.infoTitulo}>WhatsApp</p>
-                            <p className={styles.infoTexto}>(85) 99716-2390</p>
+                            <p className={styles.infoTexto}>(85) 99117-4824</p>
                         </div>
                     </div>
                     <div className={styles.infoItem}>
