@@ -11,7 +11,7 @@ function Footer() {
                 <p className={styles.slogan}>Código que transforma. Soluções que conectam.</p>
                 <div className={styles.redes}>
     <a
-        href="https://wa.me/5585999999999"
+        href="https://wa.me/5585991174824"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.rede}
@@ -20,7 +20,7 @@ function Footer() {
     </a>
 
     <a
-        href="https://instagram.com/devseven"
+        href="https://www.instagram.com/devseven_/"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.rede}

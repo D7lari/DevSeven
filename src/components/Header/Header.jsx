@@ -34,7 +34,7 @@ function Header() {
                 </nav>
                 <div className={styles.acoes}>
                     <a
-                        href="https://wa.me/5585997162390"
+                        href="https://wa.me/5585991174824"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.redesSociais}
@@ -43,7 +43,7 @@ function Header() {
                     </a>
 
                     <a
-                        href="https://instagram.com/devseven"
+                        href="https://www.instagram.com/devseven_/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.redesSociais}
